@@ -1,7 +1,7 @@
 describe "How to run specific Examples with Tags" do
 
   it 'is a slow test', :slow => true do
-    sleep 2
+    sleep 1
     puts "This test is slow!"
   end
 
